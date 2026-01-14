@@ -54,8 +54,6 @@ public class DeadlockSimulation1 {
         Thread t2 = new Thread(() -> {
             transfer(account2, account1, 100);
         });
-
-        System.out.println("Starting Deadlock Simulation");
         
         t1.start();
         t2.start();
@@ -67,6 +65,6 @@ public class DeadlockSimulation1 {
             e.printStackTrace();
         }
 
-        System.out.println("Main finished."); 
+        System.out.println("Transfer Successfully"); 
     }
 }

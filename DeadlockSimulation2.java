@@ -68,6 +68,6 @@ public class DeadlockSimulation2 {
             e.printStackTrace();
         }
 
-        System.out.println("Main finished."); 
+        System.out.println("Transfer Successfully"); 
     }
 }
